@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# Kaggle / secrets
+kaggle.json
+.env
+*.key
+*.pem
+
+# Data
+data/
+mels/
+*.ogg
+*.wav
+*.flac
+
+# Model outputs / checkpoints
+outputs/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Large generated files
+*.npy
+*.npz
+*.csv
+
+# Allow small docs if you want
+!README.md
+!notes.md
+!requirements.txt
